@@ -7,8 +7,8 @@ var math = 0;
 var number = Math.floor((Math.random() * 120) + 19);
 
 //Crystals values
-var emerald = Math.floor((Math.random() * 12) + 1);
 var rupee = Math.floor((Math.random() * 12) + 1);
+var emerald = Math.floor((Math.random() * 12) + 1);
 var saphir = Math.floor((Math.random() * 12) + 1);
 var topaz = Math.floor((Math.random() * 12) + 1);
 
@@ -29,8 +29,8 @@ var reset = function () {
     $(".number").empty();
     $(".number").append(number);
 
-    emerald = Math.floor((Math.random() * 12) + 1);
     rupee = Math.floor((Math.random() * 12) + 1);
+    emerald = Math.floor((Math.random() * 12) + 1);
     saphir = Math.floor((Math.random() * 12) + 1);
     topaz = Math.floor((Math.random() * 12) + 1);
     configmath();
@@ -57,12 +57,12 @@ console.log(number);
 
 $(document).ready(function () {
 
-    $("#emerald").click(function () {
+    $("#rupee").click(function () {
         math = math + emerald;
         config();
     })
 
-    $("#rupee").click(function () {
+    $("#emerald").click(function () {
         math = math + rupee;
         config();
     })

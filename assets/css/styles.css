@@ -34,12 +34,12 @@ img {
     padding: 10px;
 }
 
-#emerald:hover {
-    box-shadow: 0 0 11px rgba(14, 156, 50, 0.911); 
-}
-
 #rupee:hover {
     box-shadow: 0 0 11px rgba(150, 10, 10, 0.795); 
+}
+
+#emerald:hover {
+    box-shadow: 0 0 11px rgba(35, 216, 80, 0.911); 
 }
 
 #saphir:hover {
