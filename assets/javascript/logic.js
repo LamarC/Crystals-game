@@ -4,7 +4,7 @@ var losses = 0;
 var math = 0;
 
 //Random number to guess 19 - 120
-var number = Math.floor((Math.random() * 120) + 19);
+var number = Math.floor((Math.random() * 120) + 1);
 
 //Crystals values
 var rupee = Math.floor((Math.random() * 12) + 1);
@@ -24,7 +24,7 @@ var configmath = function () {
 
 var reset = function () {
     math = 0;
-    number = Math.floor((Math.random() * 100) + 19);
+    number = Math.floor((Math.random() * 100) + 1);
 
     $(".number").empty();
     $(".number").append(number);
@@ -52,7 +52,7 @@ var config = function () {
 
 $("#math").append(math);
 console.log("math");
-$(".number").append(number);
+$(".number").append("Number to guess: " + number);
 console.log(number);
 
 $(document).ready(function () {

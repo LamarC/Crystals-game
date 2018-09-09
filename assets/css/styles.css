@@ -1,20 +1,21 @@
 body {
     font-family: 'VT323', monospace;
-    background: rgb(137,25,235);
-background: radial-gradient(circle, rgba(137,25,235,1) 0%, rgba(47,136,198,1) 100%);
+    background: radial-gradient(circle, rgb(2, 0, 3) 0%, rgb(56, 74, 87) 100%);
+    
+
 }    
 
 header {
     margin: 0, auto;
     font-size: 25px;
-    color: whitesmoke;
+    color: papayawhip;
     text-align: center;
     padding-top: 25px;
 }
 
 .number {
     font-size: 50px;
-    color: blue;
+    color: rgba(222, 11, 250, 0.397);
     text-align: center;
 }
 
@@ -22,7 +23,7 @@ header {
     width: 125px;
     height: 125px;
     font-size: 25px;
-    color: whitesmoke;
+    color: papayawhip;
     margin-left: 36px;
     padding: 12px;
 }
@@ -35,7 +36,7 @@ img {
 }
 
 #rupee:hover {
-    box-shadow: 0 0 11px rgba(150, 10, 10, 0.795); 
+    box-shadow: 0 0 11px rgba(228, 7, 7, 0.795); 
 }
 
 #emerald:hover {
