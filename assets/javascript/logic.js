@@ -45,34 +45,35 @@ var config = function () {
         losses = losses + 1;
         reset();
     }
-    else{
-		configmath();
-}}
+    else {
+        configmath();
+    }
+}
 
 $("#math").append(math);
 console.log("math");
-$("#number-to-guess").append(number);
+$(".number").append(number);
 console.log(number);
 
 $(document).ready(function () {
-        
-        $("#emerald").click(function () {
+
+    $("#emerald").click(function () {
         math = math + emerald;
         config();
-        })
+    })
 
-        $("#rupee").click(function () {
-            math = math + rupee;
-            config();
-        })
+    $("#rupee").click(function () {
+        math = math + rupee;
+        config();
+    })
 
-        $("#saphir").click(function () {
-            math = math + saphir;
-            config();
-        })
+    $("#saphir").click(function () {
+        math = math + saphir;
+        config();
+    })
 
-        $("#topaz").click(function () {
-            math = math + topaz;
-            config();
-        })
-    }); 
+    $("#topaz").click(function () {
+        math = math + topaz;
+        config();
+    })
+}); 
