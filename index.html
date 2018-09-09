@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+        <html>
+    
+        <head>
+            <title>Crystals Game</title>
+            <meta charset="utf-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+                crossorigin="anonymous">
+            <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+            <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/reset.css" />
+            <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/styles.css" />
+            <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+                crossorigin="anonymous"></script>
+        </head>
+    
+        <body>
+            <header>
+            <div id="intro">
+            <header>
+                <p>Click on any of the crystals and try to match the number given at the beggining of each game. 
+                    Each crystal has it's own value. Good luck!
+                </p>
+            </header>
+            </div>
+            <br><br>
+            
+                <div class="number">
+                    Number to Guess: 
+                </div>
+
+                <br><br>
+
+            <div id="score">
+                Wins: <div id="wins"></div>
+                Losses: <div id="losses"></div>
+            </div>
+            
+            <br><br>
+
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-3">
+                        <img class="click" id="emerald" src="./assets/images/emerald.png" alt="Emerald image">
+                    </div>
+                    <br><br>
+                    <div class="col-md-3">
+                        <img class="click" id="rupee" src="./assets/images/rupee.png" alt="Rupee image">
+                    </div>
+                    <br><br>
+                    <div class="col-md-3">
+                        <img class="click" id="saphir" src="./assets/images/saphir.png" alt="Saphir image">
+                    </div>
+                    <br><br>
+                    <div class="col-md-3">
+                        <img class="click" id="topaz" src="./assets/images/topaz.png" alt="Topaz image">
+                    </div>
+                </div>
+            </div>
+
+            <div class="level">
+                    <h3>Crystal Power Level:</h3>
+                </div>
+
+            <div id="math"></div>
+    
+            <script src="./assets/javascript/logic.js"></script>
+        </body>
+    
+        </html>
